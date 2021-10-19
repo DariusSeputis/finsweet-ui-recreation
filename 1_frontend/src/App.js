@@ -1,5 +1,11 @@
+import Header from './components/header/Header';
+
 function App() {
-  return <div>Finsweet recreation</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
