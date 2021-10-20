@@ -11,7 +11,6 @@ export const StyledNavbar = styled.div`
 `;
 
 export const StyledLogo = styled.span`
-  font-family: Manrope;
   font-size: 1.7em;
   font-weight: 800;
 `;
@@ -24,7 +23,6 @@ export const StyledNav = styled.nav`
 export const StyledLinkWrapper = styled.div`
   display: flex;
 
-  font-family: Manrope;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -38,7 +36,7 @@ export const StyledLinkWrapper = styled.div`
 `;
 
 export const StyledLink = styled(Link)`
-  color: #000000;
+  color: var(--black-color);
 
   place-self: center;
 
