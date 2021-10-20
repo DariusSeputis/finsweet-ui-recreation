@@ -8,7 +8,8 @@ export const StyledSection1to09 = styled.section`
   display: grid;
   grid-template-columns: 1fr 0.9fr;
   margin: 0 auto;
-  padding-top: 10rem;
+
+  align-items: center;
 
   height: 100%;
   max-width: 80rem;
