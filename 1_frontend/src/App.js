@@ -1,7 +1,13 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Footer from './components/footer/Footer';
 
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+
+import AboutUs from './pages/aboutUsPage/AboutUs';
+import HomePage from './pages/homePage/HomePage';
+import ServicesPage from './pages/servicesPage/ServicesPage';
+import BlogsPage from './pages/blogPage/BlogPage';
+import ContactsPage from './pages/contactsPage/ContactsPage';
 
 function App() {
   return (
@@ -9,11 +15,11 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/' />
-          <Route path='/about' />
-          <Route path='/services' />
-          <Route path='/blog' />
-          <Route path='/contacts' />
+          <Route exact path='/' component={HomePage} />
+          <Route path='/aboutus' component={AboutUs} />
+          <Route path='/services' component={ServicesPage} />
+          <Route path='/blog' component={BlogsPage} />
+          <Route path='/contacts' component={ContactsPage} />
         </Switch>
         <Footer />
       </Router>

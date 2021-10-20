@@ -65,7 +65,7 @@ const Footer = () => {
               </StyledLink>
             </StyledLinkWrapper>
             <StyledLinkWrapper>
-              <StyledLink to='/about' style={{ color: 'var(--white-color)' }}>
+              <StyledLink to='/aboutus' style={{ color: 'var(--white-color)' }}>
                 About us
               </StyledLink>
             </StyledLinkWrapper>

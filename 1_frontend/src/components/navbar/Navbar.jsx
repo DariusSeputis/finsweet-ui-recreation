@@ -22,7 +22,7 @@ const Navbar = () => {
           <StyledLink to='/'>Home</StyledLink>
         </StyledLinkWrapper>
         <StyledLinkWrapper>
-          <StyledLink to='/about'>About us</StyledLink>
+          <StyledLink to='/aboutus'>About us</StyledLink>
         </StyledLinkWrapper>
         <StyledLinkWrapper>
           <StyledLink to='/services'>Services</StyledLink>
