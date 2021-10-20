@@ -2,8 +2,14 @@ import styled from 'styled-components';
 import { StyledBody01, StyledTitle02 } from '../../global.css';
 
 export const StyledFooter = styled.footer`
-  background-color: var(--black-color);
   height: 706px;
+`;
+
+export const StyledFooterTopWrapper = styled.div`
+  background-color: var(--black-color);
+  opacity: 0.98;
+
+  height: 549px;
 `;
 
 export const StyledFooterTop = styled.div`
@@ -11,6 +17,8 @@ export const StyledFooterTop = styled.div`
   grid-template-columns: 1fr 0.9fr;
   margin: 0 auto;
   padding-top: 10rem;
+
+  height: 100%;
   max-width: 80rem;
 `;
 
@@ -58,6 +66,11 @@ export const AdjustedStyledBody01 = styled(StyledBody01)`
   opacity: 0.6;
 `;
 
+export const StyledFooterBottomWrapper = styled.div`
+  background-color: var(--black-color);
+  height: 157px;
+`;
+
 export const StyledFooterBottom = styled.div`
   display: grid;
   grid-template-columns: 1.6fr 3fr 0.9fr;
@@ -65,6 +78,7 @@ export const StyledFooterBottom = styled.div`
 
   margin: 0 auto;
 
+  height: 100%;
   max-width: 80rem;
 `;
 
