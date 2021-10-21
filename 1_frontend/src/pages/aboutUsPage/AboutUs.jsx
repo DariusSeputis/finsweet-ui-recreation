@@ -15,11 +15,11 @@ const AboutUs = () => {
           alt='fixing car'
         />
         <div>
-          <h1>Our services</h1>
+          <h1>About us</h1>
           <StyledBody01>
             Through True Rich Attended does no end it his mother since real had
             half every him case in packages enquire we up ecstatic unsatiable
-            saw Through True Rich Attended does{' '}
+            saw Through True Rich Attended does
           </StyledBody01>
           <ButtonPrimary text='Book a service' />
         </div>
